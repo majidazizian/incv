@@ -12,7 +12,8 @@ Because in the national code system, there is usually a number before the code (
 1. To calculate the control digit from other digits, multiply each digit in its position and add the result together.
 2. Divide the sum obtained from step one by 11.
 3. If the remainder is less than 2, the control digit must be equal to the remainder, otherwise the control digit must be equal to eleven minus the remainder.
-
+## INCV in PyPi
+You can find this package [here](https://pypi.org/project/INCV/).
 ## Install
 `pip install INCV`
 
