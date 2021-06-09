@@ -1,5 +1,5 @@
-# NVC Package
-## National Code Validation
+# INVC Package
+## Iranians National Code Validation
 ### This package validates the national code of Iranians
 	
 Now in most production software, there is a need to use the **national code** as a unique feature for personal information.
@@ -14,11 +14,11 @@ Because in the national code system, there is usually a number before the code (
 3. If the remainder is less than 2, the control digit must be equal to the remainder, otherwise the control digit must be equal to eleven minus the remainder.
 
 ## Install
-`pip install NCV`
+`pip install INCV`
 
 ## How to use?
 ```
-from NCV import CodeValidation
+from INCV import CodeValidation
 
 code = "0123456789"
 result = CodeValidation(code)
