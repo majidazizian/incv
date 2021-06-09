@@ -6,6 +6,6 @@ setup(name="NCV",
       description="This package validates the national code of Iranians",
       author="Majid Azizian",
       author_email='your.email@domain.com',
-      url='https://github.com/user/reponame',
+      url='https://github.com/majidazizian/ncv',
       packages=["NCV"]
       )
